@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:color="@color/itemColorWhite" android:enterFadeDuration="300" android:exitFadeDuration="300">
+    <item android:drawable="@drawable/item_selected" android:state_checked="true" />
+</selector>

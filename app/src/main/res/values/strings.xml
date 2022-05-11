@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Amazing Insta Square </string>
+
+    <!-- Admob Ads -->
+    <string name="admob_app_id" translatable="false">ca-app-pub-5704051169683164~2372254531</string>
+    <string name="admob_banner_id" translatable="false">ca-app-pub-5704051169683164/8718171034</string>
+    <string name="admob_inter_id" translatable="false">ca-app-pub-5704051169683164/2954895811</string>
+    <string name="admob_native_id" translatable="false">ca-app-pub-5704051169683164/5008259800</string>
+
+    <!--Email, Privacy, Developer Acount-->
+    <string name="email_feedback">yasserhassan.it.95@gmail.com</string>
+    <string name="policy_url">https://pages.flycricket.io/amazing-insta-square/privacy.html</string>
+    <string name="developer_account_link">https://play.google.com/store/search?q=pub%3AYasser%20Hassan&amp;c=apps</string>
+
+    <!--File Provider-->
+    <string name="file_provider">com.yasser.instasquare.images.provider</string>
+
+    <string name="ad_attribution">Ad</string>
+    <string name="rating_promote">If QueShot makes you happy and satisfy. Please give us 5 stars</string>
+    <string name="feedback">Feed back</string>
+    <string name="tap_to_select">All Albums</string>
+    <string name="select_photo">Select Photos</string>
+    <string name="rating_dialog_feedback_title">Feedback</string>
+    <string name="text_images">%1$d</string>
+    <string name="collage">COLLAGE</string>
+    <string name="collage_maker">Collage</string>
+    <string name="text_title_activity_album">Albums</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="rate_us">Rate us</string>
+    <string name="settings">More app</string>
+    <string name="press_back">Please press back again to exit</string>
+    <string name="share_friend">Share app</string>
+    <string name="sharpen">Sharpen</string>
+    <string name="hue">Hue</string>
+    <string name="exposure">Exposure</string>
+    <string name="saturation">Saturation</string>
+    <string name="choose_email">Choose an app</string>
+    <string name="brightness">Brightness</string>
+    <string name="contrast">Contrast</string>
+    <string name="rating_dialog_maybe_later">Maybe later</string>
+    <string name="rating_dialog_submit">Submit</string>
+    <string name="dialog_discard_title">Changes will not be saved. Do you want to proceed?</string>
+    <string name="discard">Discard</string>
+    <string name="save">SAVE</string>
+    <string name="edit">Editor</string>
+    <string name="grid">Grid</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="editor">Editor</string>
+    <string name="next">Next</string>
+    <string name="adjust">ADJUST</string>
+    <string name="effect">EFFECT</string>
+    <string name="hardmix">HARDMIX</string>
+    <string name="dodge">DODGE</string>
+    <string name="burn">BURN</string>
+    <string name="divide">DIVIDE</string>
+    <string name="add_text">Add Text</string>
+    <string name="layout">LAYOUT</string>
+    <string name="border">BORDER</string>
+    <string name="ratio">RATIO</string>
+    <string name="color">COLOR</string>
+    <string name="gradient">GRADIENT</string>
+    <string name="blur">BLUR</string>
+    <string name="all">ALL</string>
+    <string name="smooth">SMOOTH</string>
+    <string name="b_amp_w"><![CDATA[B & W]]></string>
+    <string name="vintage">VINTAGE</string>
+    <string name="cold">COLD</string>
+    <string name="warm">WARM</string>
+    <string name="legacy">LEGACY</string>
+    <string name="share_with_friends">Share With Friends</string>
+    <string name="more_apps_from_us">More Apps from us</string>
+    <string name="share_to">Share to</string>
+    <string name="other">Other</string>
+    <string name="facebook">Facebook</string>
+    <string name="instagram">Instagram</string>
+    <string name="twitter">Twitter</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="messenger">Messenger</string>
+    <string name="gmail">Gmail</string>
+    <string name="wallpaper">Wallpaper</string>
+    <string name="discard_changes">Discard Changes</string>
+    <string name="cancel">Cancel</string>
+    <string name="text_fonts">Text Fonts</string>
+    <string name="size">Size</string>
+    <string name="radius">Radius</string>
+    <string name="background">Background</string>
+    <string name="width">Width</string>
+    <string name="height">Height</string>
+    <string name="texture">Texture</string>
+    <string name="colored">COLORED</string>
+    <string name="crop">CROP</string>
+    <string name="filter">FILTER</string>
+    <string name="frame">FRAME</string>
+    <string name="mosaic">MOSAIC</string>
+    <string name="rotate">ROTATE</string>
+    <string name="rotate_">Rotate</string>
+    <string name="horizontal">Horizontal</string>
+    <string name="vertical">Vertical</string>
+    <string name="splash">SPLASH</string>
+    <string name="splash_square">SPLASH SQUARE</string>
+
+</resources>

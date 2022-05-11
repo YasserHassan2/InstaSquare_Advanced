@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="picker_item_directory_height">80.0dip</dimen>
+    <dimen name="browser_actions_context_menu_max_width">500.0dip</dimen>
+    <dimen name="browser_actions_context_menu_min_padding">20.0dip</dimen>
+    <dimen name="cropiwa_default_border_stroke_width">1.0dip</dimen>
+    <dimen name="cropiwa_default_corner_stroke_width">4.0dip</dimen>
+    <dimen name="cropiwa_default_grid_stroke_width">1.0dip</dimen>
+    <dimen name="cropiwa_default_min_height">40.0dip</dimen>
+    <dimen name="cropiwa_default_min_width">40.0dip</dimen>
+    <dimen name="gnt_ad_indicator_height">18.0dip</dimen>
+    <dimen name="gnt_ad_indicator_text_size">10.0dip</dimen>
+    <dimen name="gnt_ad_indicator_width">25.0dip</dimen>
+</resources>

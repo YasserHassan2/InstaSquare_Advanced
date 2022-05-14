@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "899772264788",
+    "project_id": "amazing-insta-square",
+    "storage_bucket": "amazing-insta-square.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:899772264788:android:58cef1d1a9bb395bdf58c1",
+        "android_client_info": {
+          "package_name": "com.yasser.instasquare.images"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "899772264788-u907ov4mbdcna9nbj3g2ct03gf46c0no.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLXS13Jd_CLVEFQkdKk5lkdsaVWcwyMqw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "899772264788-u907ov4mbdcna9nbj3g2ct03gf46c0no.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

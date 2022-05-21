@@ -9,8 +9,8 @@ android {
         applicationId "com.yasser.instasquare.images"
         minSdkVersion 21
         targetSdkVersion 30
-        versionCode 12
-        versionName "1.0.7"
+        versionCode 13
+        versionName "1.0.8"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         multiDexEnabled true
         vectorDrawables.useSupportLibrary = true

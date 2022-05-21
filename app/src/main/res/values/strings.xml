@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Amazing Insta Square </string>
+    <string name="app_name">InstaPic</string>
 
     <!-- Admob Ads -->
     <string name="admob_app_id" translatable="false">ca-app-pub-5704051169683164~2372254531</string>
@@ -17,7 +17,7 @@
     <string name="file_provider">com.yasser.instasquare.images.provider</string>
 
     <string name="ad_attribution">Ad</string>
-    <string name="rating_promote">If Amazing Insta Square makes you happy and satisfy. Please give us 5 stars</string>
+    <string name="rating_promote">If InstaPic makes you happy and satisfy. Please give us 5 stars</string>
     <string name="feedback">Feed back</string>
     <string name="tap_to_select">All Albums</string>
     <string name="select_photo">Select Photos</string>

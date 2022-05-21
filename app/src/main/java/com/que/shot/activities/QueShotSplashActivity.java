@@ -26,6 +26,7 @@ public class QueShotSplashActivity extends AppCompatActivity {
         Animation animation1 = AnimationUtils.loadAnimation(this, R.anim.enter_from_bottom_delay);
         findViewById(R.id.imageViewLogo).startAnimation(animation);
         findViewById(R.id.textViewTitle).startAnimation(animation1);
+        findViewById(R.id.textViewSubTitle).startAnimation(animation1);
         interstitialAdMobAds();
         new Handler().postDelayed(() -> {
             QueShotSplashActivity.this.startToMainActivity();

@@ -6,7 +6,7 @@ apply plugin: 'com.google.gms.google-services'
 android {
     compileSdkVersion 30
     defaultConfig {
-        applicationId "com.yasser.instasquare.images"
+        applicationId "com.yasser.amazinginstasquare.images"
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 13

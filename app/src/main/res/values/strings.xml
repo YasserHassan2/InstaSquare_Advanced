@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Amazing Insta Square</string>
-    <string name="app_subtitle">Create Trendy Filters and share it</string>
+    <string name="app_subtitle">Amazing Picture For Amazing People</string>
 
     <!-- Admob Ads -->
     <string name="admob_app_id" translatable="false">ca-app-pub-5704051169683164~3104462253</string>

@@ -13,7 +13,7 @@
         android:layout_height="match_parent"
         android:layout_alignParentTop="true"
         android:scaleType="centerCrop"
-        android:src="@drawable/last"
+        android:src="@drawable/amazingapp_backgroiund"
         tools:ignore="ContentDescription" />
 
     <RelativeLayout

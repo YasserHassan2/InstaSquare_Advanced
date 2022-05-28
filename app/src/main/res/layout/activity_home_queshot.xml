@@ -13,24 +13,27 @@
         android:layout_height="match_parent"
         android:layout_alignParentTop="true"
         android:scaleType="centerCrop"
-        android:src="@drawable/last"
+        android:src="@drawable/gradient_bk"
         tools:ignore="ContentDescription" />
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_margin="10dp">
+        android:layout_above="@+id/linearLayoutEdit"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="632dp"
+        android:orientation="horizontal">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/kaushan_script"
             android:text="@string/app_name"
-            android:textSize="26sp"
-            android:layout_centerVertical="true"
             android:textColor="@color/white"
-            android:fontFamily="@font/livin"
-            android:textStyle="bold"/>
+            android:textSize="26sp"
+            android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/imageViewSettings"
@@ -109,9 +112,9 @@
                 android:id="@+id/relative_layout_edit_collage"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
+                android:layout_centerInParent="true"
                 android:gravity="center"
-                android:layout_centerInParent="true">
+                android:orientation="vertical">
 
                 <RelativeLayout
                     android:id="@+id/relatve_layout_collage"
@@ -123,10 +126,10 @@
                     <ImageView
                         android:layout_width="38dp"
                         android:layout_height="38dp"
+                        android:layout_centerInParent="true"
                         android:padding="6dp"
                         android:src="@drawable/ic_round_collage"
-                        app:tint="@color/itemColorBlack"
-                        android:layout_centerInParent="true"/>
+                        app:tint="@color/itemColorBlack" />
 
                 </RelativeLayout>
 
@@ -135,8 +138,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:text="@string/collage_maker"
-                    android:textSize="16sp"
-                    android:textColor="@color/white"/>
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
 
             </LinearLayout>
 
@@ -169,8 +172,8 @@
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:padding="6dp"
-                        app:tint="@color/white"
-                        android:src="@drawable/ic_baseline_camera"/>
+                        android:src="@drawable/ic_baseline_camera"
+                        app:tint="@color/white" />
 
                 </RelativeLayout>
 

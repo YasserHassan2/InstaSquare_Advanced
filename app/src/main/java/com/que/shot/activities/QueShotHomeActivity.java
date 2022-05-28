@@ -100,12 +100,12 @@ public class QueShotHomeActivity extends QueShotBaseActivity {
         setFullScreen();
         MobileAds.initialize(this,  getResources().getString(R.string.admob_app_id));
         interstitialAdMobAds();
-        setContentView(R.layout.activity_home_queshot);
-        (findViewById(R.id.relative_layout_edit_photo)).setOnClickListener(this.onClickListener);
+        setContentView(R.layout.activity_home_newdesign);
+//        (findViewById(R.id.relative_layout_edit_photo)).setOnClickListener(this.onClickListener);
         findViewById(R.id.relatve_layout_edit).setOnClickListener(this.onClickListener);
-        (findViewById(R.id.relative_layout_edit_collage)).setOnClickListener(this.onClickListener);
+//        (findViewById(R.id.relative_layout_edit_collage)).setOnClickListener(this.onClickListener);
         findViewById(R.id.relatve_layout_collage).setOnClickListener(this.onClickListener);
-        (findViewById(R.id.relative_layout_edit_camera)).setOnClickListener(this.onClickListener);
+//        (findViewById(R.id.relative_layout_edit_camera)).setOnClickListener(this.onClickListener);
         findViewById(R.id.relatve_layout_camera).setOnClickListener(this.onClickListener);
         this.imageCaptureManager = new ImageCaptureManager(this);
         this.ImageViewSettings = findViewById(R.id.imageViewSettings);

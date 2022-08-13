@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "899772264788",
-    "project_id": "amazing-insta-square",
-    "storage_bucket": "amazing-insta-square.appspot.com"
+    "project_number": "980121090856",
+    "project_id": "all-in-one-photo-editing",
+    "storage_bucket": "all-in-one-photo-editing.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:899772264788:android:58cef1d1a9bb395bdf58c1",
+        "mobilesdk_app_id": "1:980121090856:android:a0cec3899582feb020ee1d",
         "android_client_info": {
-          "package_name": "com.yasser.instasquare.images"
+          "package_name": "com.all.in.one.photo.editor"
         }
       },
       "oauth_client": [
         {
-          "client_id": "899772264788-u907ov4mbdcna9nbj3g2ct03gf46c0no.apps.googleusercontent.com",
+          "client_id": "980121090856-eu6ao3lvt10ar3pedv51qs1csl3v2rll.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDLXS13Jd_CLVEFQkdKk5lkdsaVWcwyMqw"
+          "current_key": "AIzaSyBe7u7qo4CiCytwt6vxZN4Qs3bFKynwX_4"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "899772264788-u907ov4mbdcna9nbj3g2ct03gf46c0no.apps.googleusercontent.com",
+              "client_id": "980121090856-eu6ao3lvt10ar3pedv51qs1csl3v2rll.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

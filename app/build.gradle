@@ -6,17 +6,17 @@ apply plugin: 'com.google.gms.google-services'
 android {
     compileSdkVersion 30
     defaultConfig {
-        applicationId "com.yasser.instasquare.images"
+        applicationId "com.all.in.one.photo.editor"
         minSdkVersion 21
         targetSdkVersion 30
-        versionCode 13
-        versionName "1.0.8"
+        versionCode 1
+        versionName "1.0.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         multiDexEnabled true
         vectorDrawables.useSupportLibrary = true
         setProperty("archivesBaseName", "QueShot")
         useLibrary 'org.apache.http.legacy'
-        ndk.abiFilters 'armeabi-v7a', 'arm64-v8a', 'x86' ,'x86_64'
+        ndk.abiFilters 'armeabi-v7a', 'arm64-v8a','x86_64'
     }
 
 

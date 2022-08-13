@@ -4,13 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/BackgroundCardColor">
+    android:background="@color/backgroundTool">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraint_save_control"
         android:layout_width="match_parent"
         android:layout_height="45dp"
-        android:background="@color/BackgroundCardColor"
+        android:background="@color/backgroundTool"
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
@@ -30,10 +30,11 @@
             android:layout_gravity="center|right"
             android:layout_marginEnd="10dp"
             android:layout_marginStart="10dp"
-            android:textColor="@color/mainColor"
+            android:textColor="@color/white"
             android:gravity="center"
             android:text="@string/save"
-            android:fontFamily="@font/roboto_medium"
+            android:capitalize="none"
+            android:fontFamily="@font/levenim"
             android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintRight_toRightOf="parent"
@@ -45,7 +46,7 @@
         android:id="@+id/constraint_layout_confirm_save_filter"
         android:layout_width="match_parent"
         android:layout_height="45dp"
-        android:background="@color/BackgroundCardColor"
+        android:background="@color/backgroundTool"
         android:visibility="gone"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -96,14 +97,14 @@
             android:id="@+id/constraint_layout_wrapper_collage_view"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:background="@color/BackgroundCardColor"
+            android:background="@color/backgroundTool"
             app:layout_constraintBottom_toTopOf="@id/recycler_view_tools"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.0">
 
             <com.que.shot.queshot.QueShotGridView
                 android:id="@+id/collage_view"
-                android:background="@color/BackgroundCardColor"
+                android:background="@color/backgroundTool"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -206,7 +207,7 @@
                         android:layout_width="20dp"
                         android:layout_height="4dp"
                         android:layout_marginTop="5dp"
-                        android:background="@drawable/background_view" />
+                        android:background="@color/backgroundTool"/>
 
                 </LinearLayout>
 
@@ -235,7 +236,7 @@
                         android:layout_width="20dp"
                         android:layout_height="4dp"
                         android:layout_marginTop="5dp"
-                        android:background="@drawable/background_view" />
+                        android:background="@color/backgroundTool"/>
 
                 </LinearLayout>
 
@@ -264,7 +265,7 @@
                         android:layout_width="20dp"
                         android:layout_height="4dp"
                         android:layout_marginTop="5dp"
-                        android:background="@drawable/background_view" />
+                        android:background="@color/backgroundTool"/>
 
                 </LinearLayout>
 
@@ -455,7 +456,7 @@
                         android:layout_width="20dp"
                         android:layout_height="4dp"
                         android:layout_marginTop="5dp"
-                        android:background="@drawable/background_view" />
+                        android:background="@color/backgroundTool"/>
 
                 </LinearLayout>
 
@@ -484,7 +485,7 @@
                         android:layout_width="20dp"
                         android:layout_height="4dp"
                         android:layout_marginTop="5dp"
-                        android:background="@drawable/background_view" />
+                        android:background="@color/backgroundTool"/>
 
                 </LinearLayout>
 
@@ -513,7 +514,7 @@
                         android:layout_width="20dp"
                         android:layout_height="4dp"
                         android:layout_marginTop="5dp"
-                        android:background="@drawable/background_view" />
+                        android:background="@color/backgroundTool" />
 
                 </LinearLayout>
 

@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:id="@+id/linearLayoutEditorContent"
-    android:background="#A760FF"
+    android:background="@color/backgroundTool"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -17,7 +17,7 @@
             android:id="@+id/constraintLayoutSaveEditing"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#A760FF"
+            android:background="@color/backgroundTool"
             app:layout_constraintTop_toTopOf="parent">
 
             <ImageView
@@ -52,7 +52,7 @@
             android:id="@+id/constraint_layout_confirm_save_filter"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/BackgroundCardColor"
+            android:background="@color/backgroundTool"
             android:visibility="gone"
             app:layout_constraintTop_toTopOf="parent">
 
@@ -84,7 +84,7 @@
             android:id="@+id/constraint_layout_confirm_save_neon"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/BackgroundCardColor"
+            android:background="@color/backgroundTool"
             android:visibility="gone"
             app:layout_constraintTop_toTopOf="parent">
 
@@ -116,7 +116,7 @@
             android:id="@+id/constraint_layout_confirm_save_paint"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/BackgroundCardColor"
+            android:background="@color/backgroundTool"
             android:visibility="gone"
             app:layout_constraintTop_toTopOf="parent">
 
@@ -148,7 +148,7 @@
             android:id="@+id/constraint_layout_confirm_save_hardmix"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/BackgroundCardColor"
+            android:background="@color/backgroundTool"
             android:visibility="gone"
             app:layout_constraintTop_toTopOf="parent">
 
@@ -233,7 +233,7 @@
             android:layout_height="0dp"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:background="@drawable/gradient_bk"
+            android:background="@color/backgroundTool"
             app:layout_constraintBottom_toTopOf="@id/guideline"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
@@ -359,7 +359,7 @@
                                     android:layout_width="20dp"
                                     android:layout_height="4dp"
                                     android:layout_marginTop="5dp"
-                                    android:background="@drawable/background_view" />
+                                    android:background="@color/backgroundTool"/>
 
                             </LinearLayout>
 
@@ -387,7 +387,7 @@
                                     android:layout_width="20dp"
                                     android:layout_height="4dp"
                                     android:layout_marginTop="5dp"
-                                    android:background="@drawable/background_view" />
+                                    android:background="@color/backgroundTool"/>
 
                             </LinearLayout>
 
@@ -415,7 +415,7 @@
                                     android:layout_width="20dp"
                                     android:layout_height="4dp"
                                     android:layout_marginTop="5dp"
-                                    android:background="@drawable/background_view" />
+                                    android:background="@color/backgroundTool"/>
 
                             </LinearLayout>
 
@@ -443,7 +443,7 @@
                                     android:layout_width="20dp"
                                     android:layout_height="4dp"
                                     android:layout_marginTop="5dp"
-                                    android:background="@drawable/background_view" />
+                                    android:background="@color/backgroundTool"/>
 
                             </LinearLayout>
 
@@ -471,7 +471,7 @@
                                     android:layout_width="20dp"
                                     android:layout_height="4dp"
                                     android:layout_marginTop="5dp"
-                                    android:background="@drawable/background_view" />
+                                    android:background="@color/backgroundTool" />
 
                             </LinearLayout>
 
@@ -499,7 +499,7 @@
                                     android:layout_width="20dp"
                                     android:layout_height="4dp"
                                     android:layout_marginTop="5dp"
-                                    android:background="@drawable/background_view" />
+                                    android:background="@color/backgroundTool"/>
 
                             </LinearLayout>
 
@@ -527,7 +527,7 @@
                                     android:layout_width="20dp"
                                     android:layout_height="4dp"
                                     android:layout_marginTop="5dp"
-                                    android:background="@drawable/background_view" />
+                                    android:background="@color/backgroundTool"/>
 
                             </LinearLayout>
 

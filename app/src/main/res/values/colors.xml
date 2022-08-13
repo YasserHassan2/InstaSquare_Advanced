@@ -18,7 +18,7 @@
     <color name="itemColorGray">#C1C1C1</color>
     <color name="tintCol">#6C6C6C</color>
     <color name="BackgroundColor">#131313</color>
-    <color name="BackgroundCardColor">#6867AC</color>
+    <color name="BackgroundCardColor">#000000</color>
 
     <color name="backgroundTool">#1B1B1B</color>
 

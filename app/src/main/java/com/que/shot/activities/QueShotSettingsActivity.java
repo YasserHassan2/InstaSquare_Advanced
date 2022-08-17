@@ -13,10 +13,10 @@ import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.multidex.BuildConfig;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
-import com.que.shot.BuildConfig;
 import com.que.shot.R;
 import com.que.shot.dialog.RateDialog;
 
@@ -49,7 +49,7 @@ public class QueShotSettingsActivity extends AppCompatActivity {
             Intent intent = new Intent("android.intent.action.SEND");
             intent.setType("img_text/plain");
             intent.putExtra("android.intent.extra.SUBJECT", QueShotSettingsActivity.this.getString(R.string.app_name));
-            intent.putExtra("android.intent.extra.TEXT", "https://play.google.com/store/apps/details?id=" + BuildConfig.APPLICATION_ID);
+            intent.putExtra("android.intent.extra.TEXT", "https://play.google.com/store/apps/details?id=" + "com.all.in.one.photo.editing");
             QueShotSettingsActivity.this.startActivity(Intent.createChooser(intent, "Choose"));
         });
 
@@ -78,9 +78,9 @@ public class QueShotSettingsActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Log.d("qq","moreApp");
                 try {
-                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://search?q=pub:" + getString(R.string.developer_account_link))));
+                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://search?q=pub:" + getString(R.string.developer_name))));
                 } catch (android.content.ActivityNotFoundException anfe) {
-                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://play.google.com/store/apps/developer?id=" + getString(R.string.developer_account_link))));
+                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://play.google.com/store/apps/developer?id=" + getString(R.string.developer_name))));
                 }
             }
         });

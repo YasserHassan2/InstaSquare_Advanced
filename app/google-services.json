@@ -7,6 +7,35 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:980121090856:android:3a077ef07c147a4b20ee1d",
+        "android_client_info": {
+          "package_name": "com.all.in.one.photo.editing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "980121090856-eu6ao3lvt10ar3pedv51qs1csl3v2rll.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe7u7qo4CiCytwt6vxZN4Qs3bFKynwX_4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "980121090856-eu6ao3lvt10ar3pedv51qs1csl3v2rll.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:980121090856:android:a0cec3899582feb020ee1d",
         "android_client_info": {
           "package_name": "com.all.in.one.photo.editor"

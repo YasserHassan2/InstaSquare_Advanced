@@ -28,7 +28,7 @@
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.all.in.one.photo.editor.provider"
+            android:authorities="com.all.in.one.photo.editing.provider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
@@ -44,7 +44,8 @@
             android:name="com.que.shot.activities.QueShotSplashActivity"
             android:hardwareAccelerated="true"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 

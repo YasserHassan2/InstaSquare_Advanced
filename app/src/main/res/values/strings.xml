@@ -13,9 +13,10 @@
     <string name="email_feedback">yasserhassan.it.95@gmail.com</string>
     <string name="policy_url">https://pages.flycricket.io/all-in-one-photo-edi-0/privacy.html</string>
     <string name="developer_account_link">https://play.google.com/store/search?q=pub%3AYasser%20Hassan&amp;c=apps</string>
+    <string name="developer_name">YCode Developers</string>
 
     <!--File Provider-->
-    <string name="file_provider">com.all.in.one.photo.editor.provider</string>
+    <string name="file_provider">com.all.in.one.photo.editing.provider</string>
 
     <string name="ad_attribution">Ad</string>
     <string name="rating_promote">If All in One makes you happy and satisfy. Please give us 5 stars</string>
